@@ -44,7 +44,7 @@ def transform_web_element_to_list(x_path):
 x_path_nam_hoc = "/html/body/div/form/table/tbody/tr[5]/td/table/tbody/tr[1]/td[2]/table/tbody/tr/td[3]/table[2]/tbody/tr/td/table/tbody/tr[1]/td/table/tbody/tr[3]/td[1]/select[1]"
 x_path_hoc_ky = "/html/body/div/form/table/tbody/tr[5]/td/table/tbody/tr[1]/td[2]/table/tbody/tr/td[3]/table[2]/tbody/tr/td/table/tbody/tr[1]/td/table/tbody/tr[3]/td[1]/select[2]"
 x_path_tuan_hoc = "/html/body/div/form/table/tbody/tr[5]/td/table/tbody/tr[1]/td[2]/table/tbody/tr/td[3]/table[2]/tbody/tr/td/table/tbody/tr[1]/td/table/tbody/tr[5]/td/select"
-
+#HELLO 
 list_nam_hoc  = transform_web_element_to_list(x_path_nam_hoc)
 list_hoc_ky   = transform_web_element_to_list(x_path_hoc_ky)
 list_tuan_hoc = transform_web_element_to_list(x_path_tuan_hoc)
